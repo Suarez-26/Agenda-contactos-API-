@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/sucursales.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar">
+        <div class="navbar-brand">Navbar</div>
+        <ul class="navbar-links">
+        <li><a href="/index.html" class="active">Países</a></li>
+        <li><a href="/html/index2.html">Regiones</a></li>
+        <li><a href="/html/ciudades.html">Ciudades</a></li>
+        <li><a href="/html/Empresas.html">Empresas</a></li>
+        <li><a href="/html/sucursales.html">Sucursales</a></li>
+        </ul>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    <div class="card">
+      <!-- Tabs -->
+      <div class="tabs">
+        <a href="#" class="tab active">Registrar sucursal</a>
+        <a href="#" class="tab">Listado de sucursales</a>
+      </div>
+
+      <!-- Contenido del card -->
+      <div class="card-body">
+        <h3 class="section-title">Registro de sucursales</h3>
+
+        <div class="form-group">
+          <label for="nrocomercial">Nro. comencial</label>
+          <input type="text" id="nrocomercial" placeholder="Ingrese el nombre de la sucursal">
+        </div>
+        <div class="form-group">
+          <label for="direccionsucursal">Direccion de la susursal</label>
+          <input type="text" id="direccionsucursal" placeholder="Ingrese la direccion de la sucursal">
+        </div>
+        <div class="form-group">
+          <label for="nrocontacto">Nro contacto</label>
+          <input type="text" id="nrocontacto" placeholder="Ingrese el nro. de la sucursal">
+        </div>
+        <div class="form-group">
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" placeholder="Ingrese el telefono de la sucursal">
+        </div>
+        <div class="form-group">
+          <label for="Emailsucursal">Email</label>
+          <input type="text" id="Emailsucursal" placeholder="Ingrese el Email de sucursal">
+        </div>
+
+        <div class="buttons">
+          <button class="btn btn-primary">Nuevo</button>
+          <button class="btn btn-secondary">Cancelar</button>
+          <button class="btn btn-success">Guardar</button>
+          <button class="btn btn-warning">Editar</button>
+          <button class="btn btn-danger">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

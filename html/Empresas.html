@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/empresas.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar">
+        <div class="navbar-brand">Navbar</div>
+        <ul class="navbar-links">
+        <li><a href="/index.html" class="active">Países</a></li>
+        <li><a href="/html/index2.html">Regiones</a></li>
+        <li><a href="/html/ciudades.html">Ciudades</a></li>
+        <li><a href="/html/Empresas.html">Empresas</a></li>
+        <li><a href="/html/sucursales.html">Sucursales</a></li>
+        </ul>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    <div class="card">
+      <!-- Tabs -->
+      <div class="tabs">
+        <a href="#" class="tab active">Registrar empresa</a>
+        <a href="#" class="tab">Listado de empresa</a>
+      </div>
+
+      <!-- Contenido del card -->
+      <div class="card-body">
+        <h3 class="section-title">Registro de empresa</h3>
+
+        <div class="form-group">
+          <label for="nombreempresa">Nombre del empresa</label>
+          <input type="text" id="nombreempresa" placeholder="Ingrese el nombre de la empresa">
+        </div>
+        <div class="form-group">
+          <label for="direccionempresa">Direccion de la empresa</label>
+          <input type="text" id="direccionempresa" placeholder="Ingrese la direccion de la empresa">
+        </div>
+        <div class="form-group">
+          <label for="Emailempresa">Email</label>
+          <input type="text" id="Emailempresa" placeholder="Ingrese el Email de la empresa">
+        </div>
+        <div class="form-group">
+          <label for="nombrePais">Nombre del pais</label>
+          <input type="text" id="nombrePais" placeholder="Ingrese el nombre del pais">
+        </div>
+
+        <div class="buttons">
+          <button class="btn btn-primary">Nuevo</button>
+          <button class="btn btn-secondary">Cancelar</button>
+          <button class="btn btn-success">Guardar</button>
+          <button class="btn btn-warning">Editar</button>
+          <button class="btn btn-danger">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
